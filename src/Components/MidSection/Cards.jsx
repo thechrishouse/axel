@@ -31,8 +31,8 @@ const Cards = () => {
         <p
           className={
             theme === "light"
-              ? "sm:text-xl text-dark text-2xl font-normal pt-10 no-underline font-inter align-middle tracking-wide normal-case leading-none cursor-pointer"
-              : "sm:text-xl text-white text-2xl font-normal pt-10 no-underline font-inter align-middle tracking-wide normal-case leading-none cursor-pointer"
+              ? "sm:text-xl text-dark text-xl font-normal pt-10 no-underline font-inter align-middle tracking-wide normal-case leading-none cursor-pointer"
+              : "sm:text-xl text-white text-xl font-normal pt-10 no-underline font-inter align-middle tracking-wide normal-case leading-none cursor-pointer"
           }
         >
           Explore all the nice stuff that AxeL is providing and much more...{" "}

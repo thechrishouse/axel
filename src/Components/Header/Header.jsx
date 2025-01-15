@@ -38,12 +38,11 @@ const Header = ({ topRef }) => {
             <p
               className={
                 theme === "light"
-                  ? "sm:text-lg w-4/5 font-inter font-medium no-underline align-middle tracking-wide normal-case text-dark text-2xl"
-                  : "sm:text-lg w-4/5 font-inter font-medium no-underline align-middle tracking-wide normal-case text-white text-2xl"
+                  ? "sm:text-lg w-4/5 font-inter font-medium no-underline align-middle tracking-wide normal-case text-dark text-xl"
+                  : "sm:text-lg w-4/5 font-inter font-medium no-underline align-middle tracking-wide normal-case text-white text-xl"
               }
             >
-              Giving your home a propper makeover never was this easy. Modern
-              and stylish furniture for decent prices.
+              Giving your home a proper makeover never was this easy
             </p>
           </div>
           <div className="pb-20">
@@ -65,7 +64,7 @@ const Header = ({ topRef }) => {
             </h2> */}
           </div>
           <img
-            className="sm:h-[475px] h-[765px] w-full bg-no-repeat bg-center relative z-10 header rounded-xl"
+            className="sm:h-[400px] h-[700px] w-full bg-no-repeat bg-center relative z-10 header rounded-xl"
             src={header1}
             alt="header-phone"
           ></img>

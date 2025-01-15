@@ -37,8 +37,8 @@ const MidChild = ({ data, click }) => {
                   <p
                     className={
                       theme === "light"
-                        ? "sm:text-2xl text-3xl font-normal font-inter no-underline align-middle tracking-wide normal-case leading-none text-dark"
-                        : "sm:text-2xl text-3xl font-normal font-inter no-underline align-middle tracking-wide normal-case leading-none text-white"
+                        ? "sm:text-xl text-2xl font-normal font-inter no-underline align-middle tracking-wide normal-case leading-none text-dark"
+                        : "sm:text-xl text-2xl font-normal font-inter no-underline align-middle tracking-wide normal-case leading-none text-white"
                     }
                   >
                     {item.text}
