@@ -7,7 +7,7 @@ const Header = ({ topRef }) => {
   const { theme, handleTheme } = useContext(ThemeBgContext);
 
   return (
-    <div ref={topRef} className="mx-auto pt-16 pb-16">
+    <div ref={topRef} className="mx-auto pt-16">
       <div className="sm:grid-cols-1 grid grid-cols-2 justify-items-center items-center">
         <div className="sm:w-full sm:pl-4 w-4/5 pl-24">
           <Switch
