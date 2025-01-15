@@ -84,7 +84,7 @@ const Footer = () => {
         </div>
         <div>
           <p className="sm:text-xs text-dark pb-2 font-inter font-light cursor-pointer no-underline align-middle tracking-wide normal-case">
-            Copyright {year} page by Marko Web Dev
+            Copyright {year} built by Christopher House
           </p>
         </div>
       </div>
